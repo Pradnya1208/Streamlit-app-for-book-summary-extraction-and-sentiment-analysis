@@ -15,5 +15,5 @@
 
 <br>
   
-[deployed app](https://share.streamlit.io/pradnya1208/streamlit-app-deployment/main/app.py)
+[Streamlit app link for Book summary extraction and Sentiment Analysis](https://share.streamlit.io/pradnya1208/streamlit-app-deployment/main/app.py)
 <br>
