@@ -265,11 +265,11 @@ def find_sentiment(summary_dataframe, summ_text):
 
 
   with col2:
-    if result=="Positive":
+    if y_pred2=="Positive":
         image = Image.open('https://github.com/Pradnya1208/streamlit-app-deployment/blob/main/positive.PNG')
         st.image(image, caption="Go ahead, it's a great page turner. Happy reading!!", use_column_width=True)
         
-    elif result=="Negative":
+    elif y_pred2=="Negative":
         image = Image.open('https://github.com/Pradnya1208/streamlit-app-deployment/blob/main/negative.PNG')
         st.image(image, caption='I would recommend to look for detailed analysis of this book.', use_column_width=True)
         
