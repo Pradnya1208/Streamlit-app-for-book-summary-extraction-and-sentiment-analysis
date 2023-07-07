@@ -328,7 +328,7 @@ def sentiment_wrapper():
                 content = bs(req.content,'html.parser') 
                 try:
                     summary_=""
-                    summary = content.find('div',class_ = 'readable stacked')
+                    summary = content.find('div',class_ = 'TruncatedContent')
                     summary_ = summary.text
                     #st.write(summary_[:-8])
                     #st.info(summary_[:-8])
