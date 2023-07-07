@@ -445,7 +445,7 @@ def sentiment_wrapper():
                 content = bs(req.content,'html.parser') 
                 try:
                     summary_=""
-                    summary = content.find('div',class_ = 'readable stacked')
+                    summary = content.find('div',class_ = 'TruncatedContent')
                     summary_ = summary.text
 
                     book_data_st = pd.DataFrame({'summary': [summary_[:-8]]}) 
